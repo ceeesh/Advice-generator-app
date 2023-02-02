@@ -10,7 +10,7 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: rgb(31, 38, 50);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -19,3 +19,6 @@
   -webkit-text-size-adjust: 100%;
 }
 
+.btn {
+  cursor: pointer;
+}
