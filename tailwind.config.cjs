@@ -14,6 +14,9 @@ module.exports = {
       },
       transformOrigin: {
         'trans': 'translate(-50%, -50%)',
+      },
+      boxShadow: {
+        'shadow': '0px 0px 30px rgb(82, 255, 168)'
       }
     },
   },

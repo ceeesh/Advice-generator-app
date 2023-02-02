@@ -25,13 +25,22 @@ function App() {
         <div className="text-center flex justify-center">
           <img src={divider} className="max-w-[100%]"/>
         </div>
-        <div className="btn w-[60px] h-[60px] bg-btnc flex justify-center relative items-center left-[44%] top-[25px] transform-trans rounded-[50%] border-none pointer-events-auto">
-          <img className=" w-[24px] h-[24px]" onClick={getAdvice} src={dice} />
+        <div 
+        className="
+         btn w-[60px] h-[60px] 
+         bg-btnc flex justify-center 
+         relative items-center left-[44%] 
+         top-[25px] transform-trans 
+         rounded-[50%] border-none 
+         pointer-events-auto hover:shadow-shadow"
+        onClick={getAdvice}
+        >
+          <img className=" w-[24px] h-[24px]"  src={dice} />
         </div>
       </div>
+      <div className="text-center mx-auto">Challenge by <a className="text-orange-800" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. Coded by <a className="text-orange-800">Cee Jay Malacas</a>.</div>
     </div>
   )
 }
 
 export default App
-
